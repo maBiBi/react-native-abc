@@ -25,3 +25,9 @@ module.exports = {
     accessKeySecret: 'tEg0XZnHlWZ0hrfEYArzAUcwJahnpv'
   },
 }
+
+----------------------------
+package.json>
+  "dependencies": {
+    "ali-sms": "^1.0.1"
+  }
