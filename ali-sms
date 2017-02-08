@@ -15,3 +15,13 @@ sms(config, (err, body) => {
 });
 
 console.log('start');
+
+-----------------------------
+'usr strict'
+
+module.exports = {
+  aliyun: {
+    accessKeyID: 'LTAIFQ6BoNKlmOsX',
+    accessKeySecret: 'tEg0XZnHlWZ0hrfEYArzAUcwJahnpv'
+  },
+}
