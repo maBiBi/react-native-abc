@@ -1,0 +1,17 @@
+const sms = require("ali-sms");
+const accessKeyID = process.env.ALI_SMS_ACCESSKEYID;
+const accessKeySecret = process.env.ALI_SMS_ACCESSKEYSECRET;
+
+const config = {
+  accessKeyID       : 'LTAIFQ6BoNKlmOsX',
+  accessKeySecret   : 'tEg0XZnHlWZ0hrfEYArzAUcwJahnpv',
+  paramString       : {no: '123456'},
+  recNum            : ['13414571724'],
+  signName          : '找工作测试',
+  templateCode      : 'SMS_38885128',
+};
+sms(config, (err, body) => {
+  console.log(err, body);
+});
+
+console.log('start');
