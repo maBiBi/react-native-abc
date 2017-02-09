@@ -372,3 +372,4 @@ rnpm link react-native-image-picker
 	
 2-9
 update 需要accessToken值
+trim() 去掉前后空格
