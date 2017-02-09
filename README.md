@@ -27,7 +27,8 @@ mongo
 show dbs 显示数据库
 use xxx  选择数据库
 show tables 显示表
-db.dropDatabase() 删除数据库
+db.xxx.remove({}) 删除所有表
+db.dropDatabase() 删除整个数据库!慎用
 db.xxx.insert({}) 插入数据
 查询数据
 db.xxx.find().skip(3).limit(2).sort({}x:1)
@@ -368,4 +369,6 @@ rnpm link react-native-image-picker
 	•	Privacy - Speech Recognition Usage Description -> 语音转文字权限
 	•	Privacy - Calendars Usage Description -> 日历权限
 	•	Privacy - Contacts Usage Description -> 通讯录权限
-
+	
+2-9
+update 需要accessToken值
